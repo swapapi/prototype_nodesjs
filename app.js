@@ -29,6 +29,8 @@ app.get('*', function (req, res) {
 		        res.send(body);
 		    }
 		});
+	}else{
+		res.send(sBuildResult);
 	}
 
 	// finished, send the result
